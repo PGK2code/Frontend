@@ -82,7 +82,7 @@ export class RiderPage {
   }
 
   mapUrl(order: Order) {
-    return `https://www.google.com/maps/dir/?api=1&destination=${order.latitude},${order.longitude}&travelmode=driving`;
+    return `https://www.google.com/maps/dir/?api=1&origin=16.245,103.250&destination=${order.latitude},${order.longitude}&travelmode=two-wheeler`;
   }
 
   phoneUrl(phone: string) {
